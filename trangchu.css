@@ -1,0 +1,134 @@
+
+
+.breadcrumb{
+    font-size: 15px;
+    margin-left: 15px;
+    height: 40px;
+    align-items: center;
+
+}
+
+.bannermain{
+    text-align: center;
+}
+
+.row{
+    object-fit: cover;
+}
+
+/* product */
+.product-2{
+    margin-top: 30px;
+
+    display:flex;
+    flex-wrap: nowrap;
+}
+.product-2-right{
+    list-style: none;
+    width: 80%;
+    display: flex;
+    padding-right: 12px;
+    background-color: white;
+    flex-direction: column;
+    overflow: hidden;
+}
+.product-2-right-top{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 8px 20px;
+}
+
+.sanpham{
+    padding: 8px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: flex;
+    white-space: nowrap;
+}
+
+.product-2-right-top li{
+    padding: 8px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.product-2-right-bottom{
+    width: 100%;
+    display: flex;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.product-2-right-bottom-item img{
+    width: 240px;
+    height: auto;
+}
+.product-2-left{
+    width: 20%;
+    padding-left: 2px;
+}
+
+.product-2-right-bottom2{
+    width: 100%;
+    display: flex;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.product-2-right-bottom3{
+    width: 100%;
+    display: flex;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.numfooter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.numfooter li i{
+    font-size: 15px;
+    width: 100%;
+    color: #000;
+}
+.numfooter li a {
+    font-size: 15px;
+    width: 100%;
+    color: #000;
+}
+.product-2-left{
+    list-style-type: circle;
+    padding: 20px;
+}
+
+.product-2-left p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.product-2-left li{
+    margin-top: 5px;
+}
+

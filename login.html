@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Đăng nhập</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="sanpham.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- nhúng font popin từ google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!-- boxicons -->
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        
+    </head>
+
+    <body>
+        <header>
+            <div class="header">
+            <!-- banner quang cao -->
+            <div class="topbanner">
+                <img src="images/topbanner.webp" tittle="topbanner">
+            </div>
+                <!-- header 2 -->
+                <section class="header">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+                            <!-- item 1 -->
+                            <a href="trangchu.html"><img src="images/logologo.png" tittle="logoTH"></a>
+                            <!-- item 2 -->
+                            <div class="search d-flex ">
+                                <div class="headerselect">
+                                    <span class="select">Danh mục sản phẩm </span>
+                                    <box-icon type='solid' name='chevron-down'></box-icon>
+                                </div>
+                                <input class="form-control me-2" type="in-search" placeholder="Tìm kiếm sản phẩm" aria-label="Search">
+                            </div>
+                            <!-- item 3 -->
+                            <div class="boxuser">
+                                    <box-icon name='user' bg-white></box-icon>
+                                    <div class="box-text">Tài khoản <br> <a class="page-link" href="login.html" ><b> Đăng nhập </b></a>     </div>
+                            </div>
+                            <!-- item 4 -->
+                            <div class="boxcart">
+                                <box-icon name='shopping-bag' ></box-icon>
+                                <div class="box-text"> Giỏ hàng </div>
+                            </div>
+                        </div>
+                      </nav>
+                    </section>
+                    <!-- header 3 -->
+                    <header class="navbar navbar-expand-lg">
+                        <div class="container-fluid  header-3">
+                            <!-- Navbar links -->
+                            <div class="mr-auto">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item lis">
+                                        <div class="list">
+                                            <box-icon name='list-ul' color='#ffffff'></box-icon>
+                                            <a class="nav-link" style="color: white" href="#">Danh mục sản phẩm</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" style="color: white">Khuyến mãi</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" style="color: white">Dịch vụ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" style="color: white">Tin tức</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="lienhe.html" style="color: white">Liên hệ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="KTdon.html" style="color: white">Kiểm tra đơn hàng</a>
+                                </li>
+                            </ul>
+                            <div class="ml-auto">
+                                <ul class="navbar-nav">                           
+                                    <li class="nav-item d-none d-lg-block hotline" style="display: flex; align-items: center;">
+                                        <div class="list">
+                                        <box-icon name='phone-call' color='#ffffff' style="margin-right: 5px;"></box-icon>
+                                        <a class="nav-link" href="#" style="color: white;">Hotline: 099.999.999</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </header>
+        </header>
+        <main class="container-fluid ">
+            <div class="login-container container ">
+
+                <h2 id="center">Đăng nhập tài khoản</h2>
+        
+                <p id="center">Bạn chưa có tài khoản? <a href="register.html">Đăng ký tại đây</a></p>
+        
+                <form>
+                    <label for="email">Email *</label><br>
+        
+                    <input type="text" id="email" name="email" placeholder="Email"><br>
+        
+                    <label for="password">Mật Khẩu *</label><br>
+        
+                    <input type="text" id="password" name="password" placeholder="Mật Khẩu"><br>
+        
+                    <p>Quên mật khẩu? <a href="#">Nhấn vào đây</a><br></p>  
+        
+                    <input type="submit" value="Đăng nhập"><br>
+        
+                </form>
+                
+                <p id="center" class="blue">Hoặc đăng nhập bằng</p>
+        
+                <div class="social-buttons"  id="center">
+        
+                    <button class="facebook-button"><i class='bx bxl-facebook'></i> Facebook</button>
+        
+                    <button class="google-button"><i class='bx bxl-google-plus' ></i>Google</button>
+        
+                </div>
+        
+            </div>
+        </main>
+        <footer>
+            <div class="container-fluid md-5  ">
+
+                <!-- Footer -->
+                <footer
+                    class="text-center text-lg-start text-black"
+                    style="background-color: #f4f4f4">
+
+
+                    
+
+                    <!-- Section: Social media -->
+                
+                    <!-- Section: Links  -->
+                    <section class="">
+                        <div class="container text-center text-md-start mt-5">
+                        <!-- Grid row -->
+                        <div class="row mt-3">
+
+                            <!-- Grid column -->
+
+                            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                            <!-- Content -->
+                                <a href="trangchu.html"><img src="images/logologo.png" style="margin-top: 20px" ></a>
+                                <!-- <h6 class="text-uppercase fw-bold">TECHHIVE</h6> -->
+                                <hr
+                                    class="mb-4 mt-0 d-inline-block mx-auto"
+                                    
+                                />
+                                    
+                                <p style="margin-top: 20px"><i class='bx bx-map'></i><b> Địa chỉ</b></p>
+                                <p> <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    02 Nguyễn Đình Chiểu, phường Vĩnh Thọ, Nha Trang, Khánh Hòa</p>
+                                <p><i class='bx bx-phone'></i> <a class=" link-underline link-underline-opacity-0 text-danger "> 0999.999.999</a></p>
+                                <p><i class='bx bx-mail-send' ></i> techhive@email.com</p>
+                                
+                                <p> <b>Mạng xã hội</b></p>
+                                <p><box-icon name='facebook-circle' type='logo' ></box-icon> <box-icon name='youtube' type='logo' ></box-icon> <box-icon name='tiktok' type='logo' ></box-icon> <box-icon name='instagram-alt' type='logo' ></box-icon> </p>
+                            
+                            </div>
+
+                            <!-- /Grid column -->
+                
+                            <!-- Grid column -->
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold" style="margin-top: 20px">Hỗ trợ khách hàng</h6>
+
+                                <hr
+                                    class="mb-4 mt-0 d-inline-block mx-auto"
+                                    
+                                    />
+                                <p>
+                                    <a href="#!" class="link-underline link-underline-opacity-0 text-black">Hệ thống cửa hàng</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="link-underline link-underline-opacity-0 text-black">Câu hỏi thường gặp</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="link-underline link-underline-opacity-0 text-black">Kiểm tra đơn hàng</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="link-underline link-underline-opacity-0 text-black">Liên hệ</a>
+                                </p>
+
+                            </div>
+
+                            <!-- /Grid column -->
+                                            
+                            <!-- Grid column -->
+
+                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold "style="margin-top: 20px">Chính sách</h6>
+                                <hr
+                                    class="mb-4 mt-0 d-inline-block mx-auto"
+                                    />
+                                
+                                <p>
+                                    <a href="#!" class="link-underline link-underline-opacity-0 text-black">Chính sách bảo hành</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="link-underline link-underline-opacity-0 text-black">Chính sách đổi trả</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="link-underline link-underline-opacity-0 text-black">Chính sách bảo mật</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="link-underline link-underline-opacity-0 text-black">Chính sách trả góp</a>
+                                </p> 
+
+                                <hr
+                                class="mb-4 mt-0 d-inline-block mx-auto"
+                                />
+                                <h6 class="text-uppercase fw-bold ">Tổng đài hỗ trợ</h6>
+                                
+                
+                                <p>
+                                    Gọi mua hàng: 1900.9090
+                                </p>
+                                <p>
+                                    Gọi bảo hành: 1900.6565</a>
+                                </p>
+                            
+
+                            </div>
+
+                            <!-- /Grid column -->
+                
+                            <!-- Grid column -->
+
+                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                            <!-- Links -->
+                                <h6 class="text-uppercase fw-bold" style="margin-top: 20px">Đăng kí nhận ưu đãi</h6>
+                                <hr
+                                    class="mb-4 mt-0 d-inline-block mx-auto"
+                                    
+                                    />
+
+                                <p>
+                                Bạn muốn nhận khuyến mãi đặc biệt? Đăng ký tham gia ngay cộng đồng hơn 68.000+ người theo dõi của chúng tôi để cập nhật khuyến mãi ngay lập tức
+                                </p>
+
+                                <form class="d-flex" role="Email của bạn...">
+                                    <input class="form-control rounded-pill" style="width:10rem;" placeholder="Email của bạn..." >
+                                    <button class="btn btn-danger rounded-pill" type="submit">Đăng nhập</button>
+                                </form>
+                                
+                            </div>
+
+                            <!-- /Grid column -->
+
+                        </div>
+
+                        <!-- /Grid row -->
+
+                        </div>
+
+                    </section>
+
+                    <!-- /Section: Links  -->
+
+                    
+                    
+                </footer>
+                <!-- Footer -->
+            
+            </div>
+            <!-- End of .container -->
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

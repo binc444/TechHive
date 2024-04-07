@@ -1,0 +1,155 @@
+.thung-chua{
+    margin-top: 20px;
+}
+
+
+.title .tt{
+    background-color: #F0F3F7;
+}
+
+.row{
+    margin-top: 40px;
+}
+
+.slide{
+    background-color: white;
+}
+
+.slide img{
+    width: 70% !important;
+    margin: auto;
+}       
+
+.slide2 img{
+    width: 50%!important;
+    margin: auto;
+}  
+
+.custom-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.custom-table td {
+    border: none;
+    padding: 8px;
+}
+
+.col-lef,.mota,p,h2,b{
+    background-color: white;
+}
+
+.color-row{
+    background-color: #EBF4E5 !important;
+    color: #99C096 !important;
+}
+
+.col-right{
+    height: 500px;
+    background-color: white;
+    padding-top: 10px;
+}   
+
+.thuong-hieu{
+    background-color: white;
+}
+
+.thuong-hieu p{
+    margin-right: 20px;
+    align-items: center;
+}
+
+
+.btn-giam-gia{
+    background-color: #fdd7d7;
+    color: #EE1926;
+    border: none;
+    align-items: center;
+}
+
+.add,.kho{
+    background-color: white;
+}
+
+.add button{
+    margin-right: 20px;
+}
+
+.btn-them-vao-gio, .btn-1-2 {
+    border-radius: 50px;
+    width: 100%; 
+} 
+
+.add {
+    width: 100%;
+}
+
+.btn-1-2 {
+    margin-right: 5px;
+    background-color: white;
+    color: #EE1926;
+    border: 1px solid #EE1926;
+    cursor: pointer;
+}
+
+.btn-1-2:last-child {
+    margin-right: 0;
+    height: 42px;
+}
+
+.btn-1-2:hover {
+    background-color: #EE1926;
+    color: white;
+}
+
+.btn-them-vao-gio{
+    margin-top: 20px;
+    background-color: #EE1926;
+    height: 43px;
+    color: white;
+}
+
+h3{
+    background-color: white;
+}
+
+.mota-them,.part{
+    background-color: white;
+    margin-top: 10px;
+}
+
+.related-products {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.related-products h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #0975ff; /* Màu chữ */
+    font-weight: bold;
+    font-size: 1.2rem; /* Kích thước chữ */
+}
+
+.card-body{
+    background-color: white;
+}
+
+.anh-sp{
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.anh-sp img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.anh-sp img:hover {
+    transform: scale(1.1);
+}
+
+footer,.form-footer{
+    background-color: white !important;
+}

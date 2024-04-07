@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Trang sản phẩm</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="sanpham.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- nhúng font popin từ google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!-- boxicons -->
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        
+    </head>
+
+    <body>
+        <header>
+            <div class="header">
+            <!-- banner quang cao -->
+            <div class="topbanner">
+                <img src="images/topbanner.webp" tittle="topbanner">
+            </div>
+                <!-- header 2 -->
+                <section class="header">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+                            <!-- item 1 -->
+                            <a href="trangchu.html"><img src="images/logologo.png" tittle="logoTH"></a>
+                            <!-- item 2 -->
+                            <div class="search d-flex ">
+                                <div class="headerselect">
+                                    <span class="select">Danh mục sản phẩm </span>
+                                    <box-icon type='solid' name='chevron-down'></box-icon>
+                                </div>
+                                <input class="form-control me-2" type="in-search" placeholder="Tìm kiếm sản phẩm" aria-label="Search">
+                            </div>
+                            <!-- item 3 -->
+                            <div class="boxuser">
+                                    <box-icon name='user' bg-white></box-icon>
+                                    <div class="box-text">Tài khoản <br> <a class="page-link" href="login.html" ><b> Đăng nhập </b></a>     </div>
+                            </div>
+                            <!-- item 4 -->
+                            <div class="boxcart">
+                                <box-icon name='shopping-bag' ></box-icon>
+                                <div class="box-text"> Giỏ hàng </div>
+                            </div>
+                        </div>
+                      </nav>
+                    </section>
+                    <!-- header 3 -->
+                    <header class="navbar navbar-expand-lg">
+                        <div class="container-fluid  header-3">
+                            <!-- Navbar links -->
+                            <div class="mr-auto">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item lis">
+                                        <div class="list">
+                                            <box-icon name='list-ul' color='#ffffff'></box-icon>
+                                            <a class="nav-link" style="color: white" href="#">Danh mục sản phẩm</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" style="color: white">Khuyến mãi</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" style="color: white">Dịch vụ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" style="color: white">Tin tức</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="lienhe.html" style="color: white">Liên hệ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="KTdon.html" style="color: white">Kiểm tra đơn hàng</a>
+                                </li>
+                            </ul>
+                            <div class="ml-auto">
+                                <ul class="navbar-nav">                           
+                                    <li class="nav-item d-none d-lg-block hotline" style="display: flex; align-items: center;">
+                                        <div class="list">
+                                        <box-icon name='phone-call' color='#ffffff' style="margin-right: 5px;"></box-icon>
+                                        <a class="nav-link" href="#" style="color: white;">Hotline: 099.999.999</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </header>
+        </header>
+        <main class="container thung-chua">
+            <div class="title">
+                <p class="tt"><span><b class="tt1">Trang chủ/ Laptop /</b></span> Laptop Acer Predator Helios Neo PHN16-71-53M7</p>
+            </div>
+            <div class="row">
+                <div class="col-md-7 col-left">
+                    <!-- slide ảnh  -->
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/laptop1.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/laptop2.png"class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/laptop3.png"class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      <!-- ảnh thu nhỏ -->
+                  <div class="text-center slide2">
+                    <img src="images/laptop4.png" alt="Image 2">
+                  </div>
+                  <!-- bảng khuyến mãi -->
+                  <table class="table mt-4 custom-table">
+                    <tbody>
+                        <tr class="first-row">
+                            <td class="color-row">Quà tặng khuyến mãi</td>
+                            <td class="color-row"></td>
+                        </tr>
+                        <tr>
+                            <td>1. Nhập mã EGANY thêm 5% đơn hàng</td>
+                            <td>2. Giảm giá 10% khi mua từ 5 sản phẩm</td>
+                        </tr>
+                        <tr>
+                            <td>3. Giảm giá 10% khi mua từ 5 sản phẩm</td>
+                            <td>4. Tặng phiếu mua hàng khi mua từ 500k</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- đoạn văn mô tả -->
+                  <div class="mota">
+                    <h2 class="text-center mb-4">Đặc điểm nổi bật</h2>
+                  <p><b>LAPTOP GAMING CAO CẤP THẾ HỆ MỚI VỚI CPU INTEL THẾ HỆ 13</b></p>
+                   <p> &bull; Predator Helios Neo sở hữu CPU Intel® Core™ i7-13700HX thế hệ thứ 13 mới nhất mang đến cho Gamers hiệu suất chơi game vượt trội đồng thời là sự linh hoạt cho việc xử lý đa nhiệm tác vụ một cách mượt mà.</p>
+                    <p>&bull;Kiến trúc mới đột phá này giúp phân luồng xử lý của các nhân sao cho phù hợp nhất với các tác vụ khác nhau, nhờ vậy các ứng dụng chạy nền sẽ không ảnh hưởng đến giây phút chiến game của bạn – tha hồ vừa trò chuyện, lướt web, livestream, chỉnh sửa… vừa chơi game mà không bỏ lỡ một khoảnh khắc nào. </p>
+                    
+                    <p><b>TRANG BỊ CARD ĐỒ HỌA KHỦNG NVIDIA® GEFORCE RTX™ 40 SERIES</b> </p>
+                    Helios Neo cân mọi tựa game AAA nhờ sức mạnh đồ họa đến từ GPU GeForce RTX 4060. GPU này đem lại cho Predator Helios Neo hiệu năng nhanh hơn tất cả cho cả Gamers lẫn Creators nhờ thiết kế mới dựa trên kiến trúc NVIDIA Ada Lovelace cung cấp sức mạnh nhảy vọt về cả hiệu năng lẫn tính năng hỗ trợ với trí tuệ nhân tạo – AI.
+                    CÔNG NGHỆ TẢN NHIỆT ĐỘC QUYỀN LÀM MÁT VÔ ĐỊCH
+                    <p>Helios Neo xứng danh là một chiếc Laptop Gaming hiệu năng đỉnh cao khi được trang bị hệ thống tản nhiệt đỉnh cao: 2 quạt kim loại 3D AeroBlade™ thế hệ 5 và hiệu ứng làm mát vượt trội đến từ lớp keo kim loại lỏng dành riêng cho CPU Intel thế hệ 13 bên trong máy.</p>
+                    
+                    <p><b>MÀN HÌNH GAMING HOÀN HẢO: SIÊU TỐC ĐỘ – CHUẨN MÀU SẮC</b></p>
+                    <p>&bull;Acer Predator Helios Neo Màn hình 16 inch tỉ lệ 16:10 thời thượng với độ phân giải lên đến WQXGA (2560×1600) chuẩn Gaming của Predator Helios Neo có tần số quét cực cao 165Hz.</p>
+                    <p>&bull;Những thông số phần cứng này kết hợp cùng công nghệ đồng bộ hình ảnh hàng đầu hiện nay – NVIDIA® G-SYNC® và tính năng NVIDIA® Advanced Optimus® (Mux Switch cải tiến) đem đến trải nghiệm chiến game trơn tru, mượt mà, không một chút xé hình nào.</p>
+                    
+                    <p><b>MÀN HÌNH GAMING HOÀN HẢO: SIÊU TỐC ĐỘ – CHUẨN MÀU SẮC</b></p>
+                    <p>KIỂM SOÁT MỌI THỨ VỚI BÀN PHÍM TOÀN NĂNG
+                    Acer Predator Helios Neo Sẵn sàng bùng nổ với bàn phím toàn năng được trang bị đèn nền RGB 4 đẹp mắt. Dễ dàng chuyển chế độ sử dụng (chơi game/yên lặng) với phím Hot-Key và mở PredatorSense™ chỉ bằng một lần nhấn phím.</p>
+                    
+                    <p><b>MÀN HÌNH GAMING HOÀN HẢO: SIÊU TỐC ĐỘ – CHUẨN MÀU SẮC</b></p>
+                    THỎA SỨC CÁ NHÂN HÓA VỚI PREDATORSENSE™
+                    <p> Predator Helios Neo Mở ngay phần mềm PredatorSense™ phiên bản hoàn toàn mới và điều chỉnh mọi thứ thật dễ dàng để Predator Neo hoạt động chính xác như những gì bạn cần.</p>
+                  </div>
+                </div>
+                <!-- cột 2 -->
+                <div class="col-md-5 col-right">
+                  <p><b>Laptop Acer Predator Helios <br> Neo PHN16-71-53M7</b></p>
+                  <section class="d-flex thuong-hieu">
+                    <p>Thương hiệu: <span> <b>Acer</b></span></p>       
+                    <p>Mã sản phẩm: Đang cập nhật</p>
+                  </section>
+                  <section class="d-flex align-items-center thuong-hieu">
+                    <p style="color: #EE1926;">35.200.000đ</p>
+                    <div class="divider"></div>
+                    <p>44.000.000đ</p>
+                    <button class="btn-giam-gia ml-auto">-20%</button>
+                    </section>
+                    <div class="add d-flex ">
+                    <button>- 1 +</button>
+                    <div class="kho d-flex ">
+                        <box-icon name='check' color='#619b53' style="background-color: white;"></box-icon>
+                        <p style="color: green;">Sẵn trong kho</p>
+                    </div>
+                    </div>
+                      <!-- them vao gio -->
+                      <div class="add d-flex ">
+                        <button class="btn-them-vao-gio">Thêm vào giỏ</button>
+                        </div>
+                        <div class="d-flex mt-3">
+                        <button class="btn-1-2">Mua trả góp</button>
+                        <button class="btn-1-2">Mua ngay</button>
+                    </div>
+                    <!-- mô tả thêm -->
+                    <div  class="mota-them">
+                        <div class="part d-flex ">
+                            <box-icon name='truck' type='solid' color='#151414' ></box-icon>
+                            <p>Giao hàng miễn phí trong 24h (chỉ áp dụng khu vực nội thành)</p>
+                        </div>
+                        <div class="part d-flex ">
+                            <box-icon name='coin-stack' color='#151414' ></box-icon>
+                            <p>Trả góp lãi suất 0% qua thẻ tín dụng Visa, Master, JCB</p>
+                        </div>
+                        <div class="part d-flex ">
+                            <box-icon name='coin-stack' color='#151414' ></box-icon>
+                            <p>Đổi trả miễn phí trong 30 ngày</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- các sản phẩm liên quan -->
+            <div class="related-products">
+                <h3>SẢN PHẨM LIÊN QUAN</h3>
+                <!-- Các sản phẩm liên quan có thể được thêm vào đây -->
+            </div>
+            <!-- ảnh các sản phẩm -->
+            <div class="anh-sp d-flex ">
+                <!-- ảnh 1 -->
+                <div class="card" style="width: 16rem;">
+                    <img src="images/ps5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Máy chơi game Sony PlayStation 5 (PS5) Standard Edition
+                        .</p>
+                    <p style="color: #EE1926;">4.350.000đ</p>
+                    </div>   
+                </div>
+                <!-- ảnh 2 -->
+                <div class="card" style="width: 16rem;">
+                    <img src="images/tainghe.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Tai nghe Edifier W830BT
+                        .</p>
+                    <p style="color: #EE1926;">4.350.000đ</p>
+                    </div>   
+                </div>
+                <!-- ảnh 3 -->
+                <div class="card" style="width: 16rem;">
+                    <img src="images/taycam.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Tay cầm chơi game DualSense cho PS5
+                        .</p>
+                    <p style="color: #EE1926;">4.350.000đ</p>
+                    </div>   
+                </div>
+                <!-- ảnh 4 -->
+                <div class="card" style="width: 16rem;">
+                    <img src="images/lotchuot.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Lót chuột control Gamesense Radar - Radar 4mm version
+                        .</p>
+                    <p style="color: #EE1926;">4.350.000đ</p>
+                    </div>   
+                </div>
+                <!-- ảnh 5 -->
+                <div class="card" style="width: 16rem;">
+                    <img src="images/maychoigame.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Máy chơi game Valve Steam Deck
+
+                        .</p>
+                    <p style="color: #EE1926;">4.350.000đ</p>
+                    </div>   
+                </div>
+            </div>    
+        </main>
+        <footer>
+            <div class="container-fluid md-5  ">
+
+                <!-- Footer -->
+                <footer
+                    class="text-center text-lg-start text-black"
+                    style="background-color: #f4f4f4">
+
+
+                    
+
+                    <!-- Section: Social media -->
+                
+                    <!-- Section: Links  -->
+                    <section class="">
+                        <div class="container text-center text-md-start mt-5">
+                        <!-- Grid row -->
+                        <div class="row mt-3">
+
+                            <!-- Grid column -->
+
+                            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                            <!-- Content -->
+                                <a href="trangchu.html"><img src="images/logologo.png" style="margin-top: 20px" ></a>
+                                <!-- <h6 class="text-uppercase fw-bold">TECHHIVE</h6> -->
+                                <hr
+                                    class="mb-4 mt-0 d-inline-block mx-auto"
+                                    
+                                />
+                                    
+                                <p style="margin-top: 20px"><i class='bx bx-map'></i><b> Địa chỉ</b></p>
+                                <p> <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    02 Nguyễn Đình Chiểu, phường Vĩnh Thọ, Nha Trang, Khánh Hòa</p>
+                                <p><i class='bx bx-phone'></i> <a class=" link-underline link-underline-opacity-0 text-danger "> 0999.999.999</a></p>
+                                <p><i class='bx bx-mail-send' ></i> techhive@email.com</p>
+                                
+                                <p> <b>Mạng xã hội</b></p>
+                                <p><box-icon name='facebook-circle' type='logo' ></box-icon> <box-icon name='youtube' type='logo' ></box-icon> <box-icon name='tiktok' type='logo' ></box-icon> <box-icon name='instagram-alt' type='logo' ></box-icon> </p>
+                            
+                            </div>
+
+                            <!-- /Grid column -->
+                
+                            <!-- Grid column -->
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold" style="margin-top: 20px">Hỗ trợ khách hàng</h6>
+
+                                <hr
+                                    class="mb-4 mt-0 d-inline-block mx-auto"
+                                    
+                                    />
+                                <p>
+                                    <a href="#!" class="link-underline link-underline-opacity-0 text-black">Hệ thống cửa hàng</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="link-underline link-underline-opacity-0 text-black">Câu hỏi thường gặp</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="link-underline link-underline-opacity-0 text-black">Kiểm tra đơn hàng</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="link-underline link-underline-opacity-0 text-black">Liên hệ</a>
+                                </p>
+
+                            </div>
+
+                            <!-- /Grid column -->
+                                            
+                            <!-- Grid column -->
+
+                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold "style="margin-top: 20px">Chính sách</h6>
+                                <hr
+                                    class="mb-4 mt-0 d-inline-block mx-auto"
+                                    />
+                                
+                                <p>
+                                    <a href="#!" class="link-underline link-underline-opacity-0 text-black">Chính sách bảo hành</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="link-underline link-underline-opacity-0 text-black">Chính sách đổi trả</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="link-underline link-underline-opacity-0 text-black">Chính sách bảo mật</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="link-underline link-underline-opacity-0 text-black">Chính sách trả góp</a>
+                                </p> 
+
+                                <hr
+                                class="mb-4 mt-0 d-inline-block mx-auto"
+                                />
+                                <h6 class="text-uppercase fw-bold ">Tổng đài hỗ trợ</h6>
+                                
+                
+                                <p>
+                                    Gọi mua hàng: 1900.9090
+                                </p>
+                                <p>
+                                    Gọi bảo hành: 1900.6565</a>
+                                </p>
+                            
+
+                            </div>
+
+                            <!-- /Grid column -->
+                
+                            <!-- Grid column -->
+
+                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                            <!-- Links -->
+                                <h6 class="text-uppercase fw-bold" style="margin-top: 20px">Đăng kí nhận ưu đãi</h6>
+                                <hr
+                                    class="mb-4 mt-0 d-inline-block mx-auto"
+                                    
+                                    />
+
+                                <p>
+                                Bạn muốn nhận khuyến mãi đặc biệt? Đăng ký tham gia ngay cộng đồng hơn 68.000+ người theo dõi của chúng tôi để cập nhật khuyến mãi ngay lập tức
+                                </p>
+
+                                <form class="d-flex" role="Email của bạn...">
+                                    <input class="form-control rounded-pill" style="width:10rem;" placeholder="Email của bạn..." >
+                                    <button class="btn btn-danger rounded-pill" type="submit">Đăng ký</button>
+                                </form>
+                                
+                            </div>
+
+                            <!-- /Grid column -->
+
+                        </div>
+
+                        <!-- /Grid row -->
+
+                        </div>
+
+                    </section>
+
+                    <!-- /Section: Links  -->
+
+                    
+                    
+                </footer>
+                <!-- Footer -->
+            
+            </div>
+            <!-- End of .container -->
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
